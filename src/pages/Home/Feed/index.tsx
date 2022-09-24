@@ -123,7 +123,7 @@ const Feed: React.FC<Props> = ({ play, item }) => {
               borderColor: '#292929',
               transform: [
                 {
-                  rotate: play ? rotateProp : 0,
+                  rotate: play ? rotateProp : '0deg',
                 },
               ],
             }}
